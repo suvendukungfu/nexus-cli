@@ -1,0 +1,12 @@
+# Handle line endings automatically for files detected as text 
+# and leave binary files untouched.
+* text=auto
+
+# Standardize line endings to LF for professional environments
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf

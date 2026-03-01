@@ -3,4 +3,6 @@ dist
 .env
 *.log
 .DS_Store
-package-lock.json
+# package-lock.json - Intentionally committed for deterministic environments
+# package-lock.json removed from ignore list
+
