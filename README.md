@@ -59,4 +59,4 @@ nexus sysinfo
 
 - **Commit Pattern**: conventional commits (`feat:`, `fix:`, `chore:`, `docs:`)
 - **Fault Isolation**: Internal `NexusError` domain must be used for all service-level rejections.
-- **Scalability**: For new capabilities, extend `BaseCommand` and register in `src/index.ts`.
+- **Scalability**: For new capabilities, extend `BaseCommand` and register in `src/index.ts`
